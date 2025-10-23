@@ -1,20 +1,18 @@
 ---
-title: "Teaching experience 2"
+title: "BMS 504 General Microbiology"
 collection: teaching
 type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
+permalink: /teaching/2025-spring
 venue: "University 1, Department"
 date: 2015-01-01
 location: "City, Country"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+A teaching assistant role for an introductory biology course for students in a
+broad range of biological disciplines.
 
-Heading 1
+Responsibilities
 ======
-
-Heading 2
-======
-
-Heading 3
-======
+* Provide lectures for background information
+* Monitor student safety
+* Provide demonstrations for lab techniques
