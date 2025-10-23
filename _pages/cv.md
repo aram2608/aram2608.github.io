@@ -11,41 +11,44 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* M.S. in Microbiology, University of New Hampshire, 2026 (Expected)
+* B.S. in Biology, University of Northern Colorado, 2024
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Fall 2024 - Spring 2026: Teaching Assistant
+  * University of New Hampshire
+  * Duties includes: Teaching microbiology students lab techniques
+  * Supervisor(s): Dr. Amy Michaud, Dr. Tim Montminy
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Summer 2023: Physical Therapy Office Intern
+  * Wray Rehabilitation & Activities Center
+  * Duties included: Monitoring patient exercises and assisting general office tasks
+  * Supervisor(s): Dr. Greg Collins
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Summer 2016-2024: Farm Hand
+  * Wheatlan Farms LLC
+  * Duties included: Operating heavy machinery, irrigation system repair, 
+  mechanic work, and agronomy services
+  * Supervisor(s): Don Rogers and Bryan Rogers
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming
+  * Python
+  * Bash
+  * C++
+  * R
+* Bioinformatics
+* Bilingual
+  * English
+  * Spanish
 
-Publications
+<!-- Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Talks
 ======
@@ -61,4 +64,4 @@ Teaching
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Food Bank for Larimer County Volunteer
