@@ -24,11 +24,11 @@ USER vscode
 # Copy Gemfile into the container (necessary for `bundle install`)
 COPY Gemfile ./
 
-
-
 # Install bundler and dependencies
-RUN gem install connection_pool:2.5.0
-RUN gem install bundler:2.3.26
+RUN gem install connection_pool -v 2.5.0 \
+    && gem install bundler -v 2.3.26
+
+# Install dependencies from Gemfile
 RUN bundle install
 
 # Command to serve the Jekyll site
