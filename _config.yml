@@ -8,8 +8,8 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "air" # Currently available options are "default", "air"
-title                    : "Javier Arambula Rascon / CV"
+site_theme               : "ocean"
+title                    : "Javier Arambula Rascon / Profile"
 title_separator          : "-"
 name                     : &name "Javier Arambula Rascon"
 description              : &description "Javier's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page

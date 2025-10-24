@@ -1,0 +1,55 @@
+/* ==========================================================================
+   Ocean skin (Dark)
+   ========================================================================== */
+
+/* Color codes used for the theme */
+$primary-color              : #1abc9c; // Tropical Teal
+$dark-primary-color         : mix(#000, $primary-color, 40%);
+$darker-primary-color       : mix(#000, $primary-color, 60%);
+$light-primary-color        : mix(#fff, $primary-color, 50%);
+
+$background                 : #033160; // Deep Navy Ocean
+$background-light           : mix(#fff, $background, 20%);
+$background-lighter         : mix(#fff, $background, 90%);
+$text                       : #f0f8ff; // Starry White
+$link                       : #ff6b6b; // Vibrant Coral (High contrast link)
+$link-dark                  : mix(#000, $link, 25%);
+$link-light                 : mix(#fff, $link, 25%);
+$footer                     : mix(#000, $background, 30%);
+
+/* Color codes used for the site (Kept the tropical alert colors) */
+$danger-color               : #e94b3c;
+$info-color                 : #1f94c4;
+$notice-color               : #a8dadc;
+$success-color              : #79bd9a;
+$warning-color              : #fcd881;
+
+/* Other basic settings for the template (Kept from original) */
+$border-radius              : 4px;
+$box-shadow                 : 0 1px 1px rgba(0, 0, 0, 0.125);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Dark theme for the site */
+html[data-theme="dark"] {
+    --global-base-color                 : #{$background};
+    --global-bg-color                   : #{$background};
+    --global-footer-bg-color            : #{$footer};
+    --global-border-color               : #{$light-primary-color};
+    --global-dark-border-color          : #{$background-light};
+    --global-code-background-color      : #113355; // Darker code block
+    --global-code-text-color            : #{$light-primary-color};
+    --global-fig-caption-color          : #{$light-primary-color};
+    --global-link-color                 : #{$link};
+    --global-link-color-hover           : #{$light-primary-color};
+    --global-link-color-visited         : #{$link-light};
+    --global-masthead-link-color        : #{$text};
+    --global-masthead-link-color-hover  : #{$background-light};
+    --global-text-color                 : #{$text};
+    --global-text-color-light           : #{$light-primary-color};
+    --global-thead-color                : #{$background-lighter};
+}
