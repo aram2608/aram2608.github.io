@@ -1,6 +1,6 @@
 ---
 title: "Phosphor"
-excerpt: "A toy text editor written in Raylib to help learn C++ 1<br/><img src='/images/phosphor/phosphor.png'>"
+excerpt: "A toy text editor written in Raylib to help learn C++<br/><img src='/images/phosphor/phosphor.png'>"
 collection: portfolio
 ---
 
