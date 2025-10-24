@@ -1,6 +1,6 @@
 ---
 title: "Phosphor"
-excerpt: "A toy text editor written in Raylib to help learn C++ 1<br/><img src='/images/phosphor.png'>"
+excerpt: "A toy text editor written in Raylib to help learn C++ 1<br/><img src='/images/phosphor/phosphor.png'>"
 collection: portfolio
 ---
 
@@ -55,6 +55,16 @@ register_command(keys.KEY_T, Mod.SUPER, function (ed)
   ed:toggle_palette()
 end)
 
+--[[
+  Available functions:
+    ed:insert_text("string")
+    ed:toggle_palette()
+    ed:backspace()
+    ed:paste_text()
+    ed:new_line()
+    ed:tab()
+]]
+
 -- Overriding default palette at loadup
 pick_palette(Palette.Blue)
 
@@ -70,3 +80,19 @@ pick_palette(Palette.Blue)
 ]]
 ```
 
+Themes
+---
+
+![Green](/images/phosphor/green.png)
+
+![Blue](/images/phosphor/blue.png)
+
+![White](/images/phosphor/white.png)
+
+![Amber](/images/phosphor/amber.png)
+
+![Cyan](/images/phosphor/cyan.png)
+
+![Red](/images/phosphor/red.png)
+
+![Magenta](/images/phosphor/magenta.png)
