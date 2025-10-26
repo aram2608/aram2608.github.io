@@ -12,11 +12,11 @@ Hey Faith!
 I’m a microbiologist and developing bioinformatician interested in how microbes 
 interact with their environments and hosts. I currently study the 
 actinobacteria _Frankia_ at the University of New Hampshire, where I use RNA-seq and 
-comparative genomics to uncover the molecular signals that shape symbiotic 
-relationships. I enjoy translating large biological datasets into meaningful 
-insights through Python and R, and I am passionate about building tools that 
-support biological discovery. Outside the lab, I love teaching microbiology 
-and helping students gain confidence at the bench.
+comparative genomics to try and uncover the molecular signals that shape their symbiotic 
+relationship. I enjoy translating large biological datasets into meaningful 
+insights and discoveries through Python and R, and I am passionate about 
+building tools and pipelines that support biological discovery. Outside the lab, 
+I love teaching microbiology and helping students gain confidence at the bench.
 
 When I’m not in the teaching lab or digging through sequencing data, you’ll 
 usually find me outdoors. I love hiking, fishing, and exploring new places, 
