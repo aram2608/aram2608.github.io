@@ -167,7 +167,7 @@ With that out of the way, we can start implementing our interface methods so our
 game is treated like an ebiten.Game object.
 
 ```go
-func (g *Game) Update() {
+func (g *Game) Update() error {
   if ebiten.IsKeyPressed(ebiten.KeyEscape) {
     return ebiten.Termination
   }
@@ -228,8 +228,10 @@ If you are unsure what to include, it should look something like this so far.
 
 ```go
 import (
-  "log"
-  "github.com/hajimehoshi/ebiten/v2"
+	"image/color"
+	"log"
+
+	"github.com/hajimehoshi/ebiten/v2"
 )
 ```
 
