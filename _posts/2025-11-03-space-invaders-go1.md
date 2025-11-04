@@ -237,3 +237,62 @@ import (
 
 That is all for now, in the next post, we will create our ship and get it to
 move around a bit.
+
+In sum...
+
+```go
+import (
+	"image/color"
+	"log"
+
+	"github.com/hajimehoshi/ebiten/v2"
+)
+
+const(
+  screenWidth = 750
+  screenHeight = 750
+)
+
+type State int
+const (
+  GameOn State = iota
+  GameOver
+)
+
+type Game struct {
+  state State
+}
+
+func (g *Game) Update() error {
+  if ebiten.IsKeyPressed(ebiten.KeyEscape) {
+    return ebiten.Termination
+  }
+  return nil
+}
+
+func (g *Game) Draw(screen *ebiten.Image) {
+  screen.Fill(color.RGBA{28, 3, 51, 255})
+}
+
+func (g *Game) Layout(outsideWidth, outsideHeight int) (screenWidth, screenHeight int) {
+	return outsideWidth, outsideHeight
+}
+
+func (g *Game) init() {
+  g.state = GameOn
+}
+
+func NewGame() ebiten.Game {
+  g := &Game{}
+  g.init()
+  return g
+}
+
+func main() {
+	ebiten.SetWindowSize(screenWidth, screenHeight)
+	ebiten.SetWindowTitle("Go - Space Invaders")
+	if err := ebiten.RunGame(NewGame()); err != nil { // <- goes in here!
+		log.Fatal(err)
+	}
+}
+```
