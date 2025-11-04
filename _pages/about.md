@@ -7,8 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-Hey Faith!
-
 I’m a microbiologist and developing bioinformatician interested in how microbes 
 interact with their environments and hosts. I currently study the 
 actinobacteria _Frankia_ at the University of New Hampshire, where I use RNA-seq and 

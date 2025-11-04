@@ -245,7 +245,7 @@ import (
 	"image/color"
 	"log"
 
-	"github.com/hajimehoshi/ebiten/v2"
+  "github.com/hajimehoshi/ebiten/v2"
 )
 
 const(
