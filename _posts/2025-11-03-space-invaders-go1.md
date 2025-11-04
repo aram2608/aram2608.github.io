@@ -1,6 +1,6 @@
 ---
 title: 'Space Invaders in Go: Part 1'
-date: 2025-10-23
+date: 2025-11-04
 permalink: /posts/2025/11/space-invaders-go1/
 tags:
   - Programming
