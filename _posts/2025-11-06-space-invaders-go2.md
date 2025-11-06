@@ -18,8 +18,7 @@ Back Into It
 
 In the last post, we got our screen drawn, which on its own is a terrible game.
 In this post, we start to breath some life into our game by getting our ship drawn
-and moving. The assets used for my version of the game come from [gishadev](https://itch.io/profile/gisha),
-so go check them out!
+and moving.
 
 Loading our Assets
 ===
