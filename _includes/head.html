@@ -1,21 +1,39 @@
 {% include base_path %}
 
-<meta charset="utf-8">
+<head>
+  <!-- Character encoding -->
+  <meta charset="utf-8">
 
-{% include seo.html %}
+  <!-- Viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+  <!-- Jekyll SEO tag  -->
+  {% seo %}
 
-<!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Verification tokens -->
+  {% if site.google_site_verification %}
+    <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
+  {% endif %}
+  {% if site.bing_site_verification %}
+    <meta name="msvalidate.01" content="{{ site.bing_site_verification }}">
+  {% endif %}
 
-<script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
-</script>
+  <!-- Atom/RSS feed -->
+  <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"
+        type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 
-<!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+  <!-- Mobile friendliness -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
 
-<meta http-equiv="cleartype" content="on">
+  <!-- No-js to js class toggle -->
+  <script>
+    document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  </script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+
+  <!-- Windows text rendering -->
+  <meta http-equiv="cleartype" content="on">
+</head>

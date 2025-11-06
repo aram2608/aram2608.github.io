@@ -1,5 +1,5 @@
 ---
-title: Space Invaders in Go: Part 2
+title: 'Space Invaders in Go: Part 2'
 seo_title: How to Build Space Invaders in Go
 seo_description: Previously, we got our window drawn, now we can get our ship ready to go!
 date: 2025-11-06
