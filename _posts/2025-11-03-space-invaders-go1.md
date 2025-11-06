@@ -243,7 +243,10 @@ move around a bit.
 In sum...
 
 ```go
+package main
+
 import (
+
 	"image/color"
 	"log"
 
