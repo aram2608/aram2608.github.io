@@ -208,7 +208,7 @@ func (g *Game) moveRight() {
 }
 ```
 
-We make two simple helper methods to modify the screens internal position. We can
+We make two simple helper methods to modify the ships internal position. We can
 then plop that straight into the Update method and our ship will be cruising along!
 
 ```go
