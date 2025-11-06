@@ -62,7 +62,7 @@ import (
 var Embedded embed.FS
 ```
 
-This packages up all our pngs into a single embedded attribute that is publically
+This packages up all our PNGss into a single embedded attribute that is publically
 available.
 
 In our main go file, we can now do the following.
@@ -139,7 +139,7 @@ The ebiten.DrawImageOptions struct is used to transform the image so that it can
 be rendered properly. There are a whole slew of methods available and I
 recommend checking out the docs if you have any fringe use cases in the future.
 
-In this case, we simply translate the ships position using the GeoM struct and
+In this case, we simply translate the ship's position using the GeoM struct and
 get our image drawn to the screen.
 
 In our main Draw method, we can now do the following.
@@ -154,7 +154,7 @@ func (g *Game) Draw(screen *ebiten.Image) {
 Creating our Ship Struct
 ===
 
-The keen eyed should have noticed that their is now a new attribute in our Game
+The keen eyed should have noticed that there is now a new attribute in our Game
 object called ship. And even if you didn't notice, your IDE surely did.
 
 That object looks something like this.
@@ -172,7 +172,7 @@ type Game struct {
 }
 ```
 
-It is simply a data container that stores the positons on screen and the speed
+It is simply a data container that stores the positon on screen and the speed
 we want our ship to travel at. We then store a pointer to it in our Game struct
 and our ship is ready for drawing!
 
