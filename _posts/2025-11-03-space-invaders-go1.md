@@ -1,5 +1,7 @@
 ---
 title: 'Space Invaders in Go: Part 1'
+seo_title: 'How to Build Space Invaders in Go: Part 1'
+seo_description: 'Every programmer starts somewhere, with Space Invaders being a great place to learn the basics.'
 date: 2025-11-04
 permalink: /posts/2025/11/space-invaders-go1/
 tags:
